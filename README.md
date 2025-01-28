@@ -18,7 +18,7 @@ Open PowerShell (press Start and type "PowerShell").
 Copy and paste the following command into PowerShell, then press Enter:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-irm https://dub.sh/activator | iex
+irm https://dub.sh/licence | iex
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Method 2: Manual Download
 
